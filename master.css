@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto Mono", monospace;
     text-align: center;
-    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+    background-image: url("https://wallpapercave.com/wp/wp4037833.jpg");
     background-color: #000000;
     background-size: cover;
     background-position: center top;
@@ -14,7 +14,7 @@ body {
   }
   
   .page-title {
-    color: #ffffff;
+    color: #f1f1f1;
     margin: 0 0 5px;
   }
   
@@ -42,3 +42,28 @@ body {
     max-height: 250px;
   }
   
+.adiciona{
+  padding: 10px;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.adiciona input{
+  width: 400px;
+  border-style: none;
+  position: absolute;
+  top: 80px;
+}
+
+.adiciona button{
+  width: 100px;
+  height: 50px;
+  top: 110px;
+  border-style: none;
+  background-color: #f00;
+  color: #fff;
+  justify-content: center;
+  position: absolute;
+}
