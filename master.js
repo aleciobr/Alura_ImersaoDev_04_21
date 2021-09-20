@@ -8,7 +8,7 @@ function adicionar(){
     var novoGame = document.getElementById("link").value;
     var elementoGames = "<img src="+ novoGame + ">";
     var listaGame = document.getElementById("listaGame");
-    listaGame.innerHTML = elementoGames;
+    listaGame.innerHTML = listaGame.innerHTML + elementoGames;
 }
 
 for(var i = 0; i < listaGames.length; i++){
