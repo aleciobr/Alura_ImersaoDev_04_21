@@ -4,10 +4,11 @@ var listaGames = [
     "https://www.mobygames.com/images/covers/l/364131-killer-instinct-definitive-edition-xbox-one-front-cover.png",
     "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nintendo_64/n64_conkersbfd_au_label_thumb.jpg"];
 
-function Adicionar(){
+function adicionar(){
     var novoGame = document.getElementById("link").value;
-    listaGames.push(novoGame);
-
+    var elementoGames = "<img src="+ novoGame + ">";
+    var listaGame = document.getElementById("listaGame");
+    listaGame.innerHTML = elementoGames;
 }
 
 for(var i = 0; i < listaGames.length; i++){
